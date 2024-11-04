@@ -1,4 +1,4 @@
-package com.teachmeskills.lesson_10.AplicationRunner;
+package com.teachmeskills.lesson_10.aplicationRunner;
 
 import com.teachmeskills.lesson_10.model.client.Client;
 
