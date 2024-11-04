@@ -42,4 +42,9 @@ public class Card {
                 Objects.equals(cardNumber, card.cardNumber) &&
                 Objects.equals(cardHolderName, card.cardHolderName);
     }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(cvv, cardNumber, cardHolderName);
+    }
 }
